@@ -81,13 +81,13 @@ nav li a {
 /* live section */
 .liveSection {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     gap: 104px;
     margin: 120px 150px;
 }
 
-.liveSectionText > h3 {
+.liveSectionText>h3 {
     font-weight: 700;
     font-size: 42px;
 }
@@ -99,4 +99,47 @@ nav li a {
     background: url(image.png);
     border-radius: 48px;
 
+}
+
+/* active user section */
+.activeUsers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 130px 150px;
+    background: rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
+    padding: 40px 150px;
+    text-align: center;
+}
+
+.activeUsers>h3 {
+    font-weight: 700;
+    font-size: 32px;
+    margin: 0px 0px 20px;
+    /* margin-bottom: 22px; */
+}
+
+.userColumn {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    /* justify-content: space-around; */
+}
+
+.userNum {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    color: #4E47FF;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 1px;
+}
+
+.userType {
+    color: rgba(37, 36, 50, 0.5);
+    margin: 2px;
 }
