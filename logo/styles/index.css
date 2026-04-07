@@ -143,3 +143,73 @@ nav li a {
     color: rgba(37, 36, 50, 0.5);
     margin: 2px;
 }
+
+/* review section */
+.reviewSection{
+    margin: 130px 150px;
+}
+
+.reviewes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.reviewColumn {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    width: 350px;
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid #F2EDED;
+    padding: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-items: left;
+    align-items: first baseline;
+}
+
+.reviewSection>h3 {
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+}
+
+.reviewTitle {
+    width: 221px;
+    height: 29px;
+    margin: 10px;
+}
+
+.reviewSubTitle {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.person {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    margin: 2px;
+}
+
+.person img {
+    border-radius: 100%;
+    border: 0;
+}
+
+.reviewer{
+    margin: 5px;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 16px;
+    margin: 2px;
+}
+
+.reviewer p{
+    margin: 2px;
+}
