@@ -78,13 +78,19 @@ nav li a {
     font-size: 65px;
 }
 
+/* main */
+main {
+    background: #F5F8FF;
+}
+
 /* live section */
 .liveSection {
     display: flex;
     /* align-items: center; */
     justify-content: center;
     gap: 104px;
-    margin: 120px 150px;
+    margin: 0 150px;
+    padding-top: 120px;
 }
 
 .liveSectionText>h3 {
@@ -145,11 +151,11 @@ nav li a {
 }
 
 /* review section */
-.reviewSection{
+.reviewSection {
     margin: 130px 150px;
 }
 
-.reviewes{
+.reviewes {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -200,7 +206,7 @@ nav li a {
     border: 0;
 }
 
-.reviewer{
+.reviewer {
     margin: 5px;
 }
 
@@ -210,6 +216,35 @@ nav li a {
     margin: 2px;
 }
 
-.reviewer p{
+.reviewer p {
     margin: 2px;
+}
+
+/* offer section */
+.offerSection {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 44px;
+    margin: 130px 150px;
+    background: #FFFFFF;
+    border-radius: 14px;
+    padding: 71px 150px;
+    /* border: 1px black solid; */
+}
+
+.offerSection h3 {
+    font-weight: 700;
+    font-size: 50px;
+    margin: 22px;
+}
+
+.offerSection img {
+    width: 840px;
+    height: 364.77px;
+
+    background: url(image.png);
+    border-radius: 48px;
 }
