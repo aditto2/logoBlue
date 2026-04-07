@@ -10,10 +10,10 @@
 
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
-            rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 
 </head>
 
@@ -30,7 +30,7 @@
                     <li><a href="" class="primaryColor">Home</a></li>
                     <li><a href="" class="primaryColor">Contacts</a></li>
                     <li><a href="" class="primaryColor">About Us</a></li>
-                    <li><button class="btnPrimary">Sign Up</button></li>
+                    <li><button type="button" class="btnPrimary" onclick="alert('fill up the form!')">Sign Up</button></li>
                 </ul>
             </div>
         </nav>
@@ -38,7 +38,7 @@
         <!-- banner section -->
         <div class="banner">
             <h3 class="bannerTitle primaryColor">Cool Dark UI Template for Webflow Agencies!</h3>
-            <button class="btnPrimary">Stay Focused</button>
+            <button class="btnPrimary" type="button" onclick="alert('Focused')">Stay Focused</button>
         </div>
 
     </header>
@@ -177,13 +177,34 @@
         <!-- contacts section -->
         <section class="contacts">
 
+            <h3>Let's Get in Touch</h3>
+
+            <form action="">
+                <label for="email">Email:</label>
+                <input type="email" placeholder="adittoadi867@gmail.com">
+                <label for="text">Name:</label>
+                <input type="text" placeholder="Your Full Name">
+                <label for="textarea">Message:</label>
+                <textarea name="" id="" placeholder="Write Your Message"></textarea>
+                <input type="submit" class="btnPrimary">
+            </form>
+
         </section>
 
     </main>
 
     <footer>
 
+        <h1 class="titleColor">LOGO</h1>
+        <p class="textPrimary">Ready to elevate your online presence? Contact us today to discuss <br> your project and
+            discover how we can bring your vision to life.</p>
 
+        <ul>
+            <li><a href="" class="textPrimary">Home</a></li>
+            <li><a href="" class="textPrimary">About</a></li>
+            <li><a href="" class="textPrimary">How it works</a></li>
+            <li><a href="" class="textPrimary">Services</a></li>
+        </ul>
 
     </footer>
 </body>

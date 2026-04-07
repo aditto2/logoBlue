@@ -31,6 +31,11 @@
     border-radius: 10px;
 }
 
+.btnPrimary:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
 /* header */
 header {
     background-image: url(../Assets/Hero-bg.png);
@@ -247,4 +252,72 @@ main {
 
     background: url(image.png);
     border-radius: 48px;
+}
+
+/* contacts section */
+.contacts {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    justify-content: center;
+    margin: 100px 150px 10px;
+    padding: 71px 0;
+}
+
+.contacts h3 {
+    font-weight: 700;
+    font-size: 90px;
+}
+
+.contacts label {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+.contacts input[type=text],
+input[type=email],
+textarea,
+input[type=submit] {
+    display: block;
+    /* align-items: right; */
+    justify-content: right;
+    margin: 15px 0 15px;
+    padding: 20px 50px 20px 20px;
+    width: 300px;
+    border: 0;
+    border-radius: 10px;
+}
+
+.contacts input[type=submit] {
+    width: 100%;
+}
+
+/* footer */
+footer{
+    text-align: center;
+    justify-content: center;
+    margin: 100px 200px;
+}
+
+footer h1 {
+    font-weight: 900;
+    font-size: 100px;
+    margin-bottom: 22px;
+}
+
+
+footer ul{
+    display: flex;
+    align-items:  center;
+    justify-content: center;
+    gap: 22px;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer li a{
+    text-decoration: none;
 }
